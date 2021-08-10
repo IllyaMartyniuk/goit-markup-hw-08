@@ -355,12 +355,6 @@ nav .logo span {
   font-weight: 400;
 }
 
-@media screen and (max-width: 767px) {
-  .adress {
-    margin-bottom: 32px;
-  }
-}
-
 .menu-button {
   display: inline-flex;
   border: none;
@@ -491,12 +485,6 @@ nav .logo span {
   flex-direction: column-reverse;
 }
 
-@media screen and (max-width: 767px) {
-  .nav-contacts {
-    margin-top: 60px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .nav-contacts {
     margin-left: 84px;
@@ -507,12 +495,6 @@ nav .logo span {
   .nav-contacts {
     display: flex;
     margin-left: 305px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .nav-contacts > .item:not(:last-child) {
-    margin-bottom: 32px;
   }
 }
 

@@ -47,12 +47,12 @@ nav .logo span {
   font-weight: 400;
 }
 
-.adress {
-  @media screen and (max-width: 767px) {
-    margin-bottom: 32px;
-  }
-
-}
+//.adress {
+//  @media screen and (max-width: 767px) {
+//    margin-bottom: 32px;
+//  }
+//
+//}
 
 .menu-button {
   display: inline-flex;
@@ -193,7 +193,7 @@ nav .logo span {
   display: flex;
   flex-direction: column-reverse;
   @media screen and (max-width: 767px) {
-    margin-top: 60px;
+   // margin-top: 60px;
   }
 
   @media screen and(min-width:768px) {
@@ -210,7 +210,7 @@ nav .logo span {
 .nav-contacts > .item {
   &:not(:last-child) {
     @media screen and (max-width: 767px) {
-      margin-bottom: 32px;
+     // margin-bottom: 32px;
     }
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       margin-bottom: 10px;
