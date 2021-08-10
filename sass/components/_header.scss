@@ -55,6 +55,9 @@ nav .logo span {
 //}
 
 .menu-button {
+  position: fixed;
+  right: 0;
+  top: 0;
   display: inline-flex;
   border: none;
   background-color: transparent;
@@ -95,15 +98,12 @@ nav .logo span {
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
-   height: 100%;
-  }
 
-.menu-container{
-  height: 100%;
-}
-  
+  }
+ 
+
   @media screen and (max-width: 767px) {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -115,16 +115,24 @@ nav .logo span {
     opacity: 0;
     pointer-events: none;
     width: 100%;
+    height: 100%;
     padding-top: 48px;
     padding-bottom: 48px;
     padding-left: 40px;
     padding-right: 40px;
     background-color: $primary-bg-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
 
     &.is-open {
       transform: translateY(0);
       opacity: 1;
       pointer-events: initial;
+      
     }
 
   }
@@ -229,7 +237,7 @@ nav .logo span {
   color: $primary-text-color;
   font-style: normal;
   font-weight: 500;
-   font-size: 18px;
+   font-size: 12px;
   line-height: 1.167;
   letter-spacing: 0.02em;
 
@@ -239,6 +247,7 @@ nav .logo span {
     font-weight: 500;
     line-height: 47px;
     letter-spacing: 0.02em;
+    font-size: 18px;
   }
 }
 
@@ -254,10 +263,12 @@ nav .logo span {
       letter-spacing: 0.02em;
       color: #2196F3;
   }
-
+  
   @media screen and (min-width: 768px) {
+    .mail-modal{
     font-size: 12px;
   }
+}
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
@@ -305,7 +316,8 @@ nav .logo span {
     display: none;
     } 
   }
-  .modal-link{
+  .modal-item {
+    @media screen and (max-width: 767px){
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -314,3 +326,4 @@ nav .logo span {
     letter-spacing: 0.02em;
     color: #2196F3;
   }
+}
