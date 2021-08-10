@@ -545,18 +545,18 @@ nav .logo span {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .modal-link {
-    display: none;
-  }
-}
-
 .modal-item {
   display: flex;
   flex-direction: row;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+  .modal-item {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .nav-svg {
     display: none;
   }
