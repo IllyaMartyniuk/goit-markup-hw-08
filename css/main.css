@@ -525,15 +525,13 @@ nav .logo span {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
     line-height: 47px;
     letter-spacing: 0.02em;
-    color: #212121;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .nav-contact .tell {
+  .tell-modal {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -545,13 +543,13 @@ nav .logo span {
 }
 
 @media screen and (min-width: 768px) {
-  .nav-contact {
+  .tell-modal {
     font-size: 12px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .nav-contact {
+  .tell-modal {
     font-size: 14px;
     line-height: 1.143;
   }
