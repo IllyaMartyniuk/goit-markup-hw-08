@@ -575,8 +575,14 @@ nav .logo span {
 
 @media screen and (max-width: 767px) {
   .modal-item li:not(:last-child) {
-    margin-right: 20px;
+    padding-right: 10px;
     border-right: 1px solid rgba(33, 33, 33, 0.2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .modal-item li:not(:first-child) {
+    padding-left: 10px;
   }
 }
 
