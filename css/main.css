@@ -553,6 +553,13 @@ nav .logo span {
 
 .modal-item {
   display: flex;
+  flex-direction: row;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-svg {
+    display: none;
+  }
 }
 
 .hero-section {

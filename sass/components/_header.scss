@@ -230,7 +230,13 @@ nav .logo span {
     display: none;
     } 
   }
-  .modal-item{
+  .modal-item {
     display: flex;
+    flex-direction: row;
+  }
+  .nav-svg {
+  @media screen and (min-width: 1200px){
+    display: none;
+    } 
   }
 
