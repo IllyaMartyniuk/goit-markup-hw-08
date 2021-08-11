@@ -711,8 +711,8 @@ nav .logo span {
 }
 
 .hero-button:hover, .hero-button:focus {
-  color: #2196f3;
-  background-color: #ffffff;
+  color: #FFFFFF;
+  background-color: #188CE8;
 }
 
 .backdrop {
@@ -1668,8 +1668,8 @@ nav .logo span {
 .subscribe-text:hover > .send-icon,
 .subscribe-text:focus-within > .send-icon,
 .subscribe-text:hover {
-  fill: #2196f3;
-  color: #2196f3;
+  fill: #ffffff;
+  color: #ffffff;
 }
 
 .send-icon {
