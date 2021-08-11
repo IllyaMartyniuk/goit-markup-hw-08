@@ -196,6 +196,20 @@ nav .logo span {
   pointer-events: none;
   color: $accent-color;
 }
+.current {
+  position: relative;
+  
+}
+.current::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 0px;
+  display: block;
+  border-radius: 2px;
+  background-color: currentColor;
+}
 
 .nav-contacts {
   @media screen and (max-width: 767px) {
