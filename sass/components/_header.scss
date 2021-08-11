@@ -47,12 +47,11 @@ nav .logo span {
   font-weight: 400;
 }
 
-//.adress {
-//  @media screen and (max-width: 767px) {
-//    margin-bottom: 32px;
-//  }
-//
-//}
+.adress {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 64px;
+  }
+}
 
 .menu-button {
   position: fixed;
@@ -200,6 +199,7 @@ nav .logo span {
   position: relative;
   
 }
+@media screen and (min-width: 1200px) {
 .current::after{
   content: '';
   position: absolute;
@@ -209,6 +209,7 @@ nav .logo span {
   display: block;
   border-radius: 2px;
   background-color: currentColor;
+  }
 }
 
 .nav-contacts {
