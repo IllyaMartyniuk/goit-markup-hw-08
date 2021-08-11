@@ -593,6 +593,13 @@ nav .logo span {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .mail-modal {
+    font-size: 14px;
+    line-height: 1.143;
+  }
+}
+
 .nav-svg {
   margin-right: 10px;
   fill: currentColor;
